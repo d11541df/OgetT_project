@@ -25,7 +25,7 @@ class DiscountBanner extends StatelessWidget {
         TextSpan(
           style: TextStyle(color: Colors.white),
           children: [
-            TextSpan(text: "썸머타임 할인"),
+            TextSpan(text: "대학생 인증시"),
             TextSpan(
               text: "20% 할인",
               style: TextStyle(

@@ -7,8 +7,8 @@ class Categories extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     List<Map<String, dynamic>> categories = [
-      {"icon": "assets/icons/Flash Icon.svg", "text": "Flash"},
-      {"icon": "assets/icons/Bill Icon.svg", "text": "bill"},
+      {"icon": "assets/icons/Flash Icon.svg", "text": "전체보기"},
+      {"icon": "assets/icons/Bill Icon.svg", "text": "남성의류"},
       {"icon": "assets/icons/Game Icon.svg", "text": "게임기"},
       {"icon": "assets/icons/Gift Icon.svg", "text": "여성의류"},
       {"icon": "assets/icons/Discover.svg", "text": "더보기"},
