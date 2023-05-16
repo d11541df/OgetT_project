@@ -56,13 +56,13 @@ class _SignFormState extends State<SignForm> {
                   });
                 },
               ),
-              Text("Remember me"),
+              Text("로그인 상태 유지"),
               Spacer(),
               GestureDetector(
                 onTap: () => Navigator.pushNamed(
                     context, ForgotPasswordScreen.routeName),
                 child: Text(
-                  "비밀번호 까먹음",
+                  "비밀번호 찾기",
                   style: TextStyle(decoration: TextDecoration.underline),
                 ),
               )
